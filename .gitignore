@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Log files
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# Temp and cache
+*.tmp
+*.bak
+.cache/
+tmp/
+
+# Contracts generated
+app/templates/*.pdf
+app/templates/*.docx~
+app/templates/~$*
+
+# Test & coverage
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Node (por si usas npm en el frontend)
+node_modules/
+npm-debug.log*
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Others
+dist/
+build/
+*.egg-info/
