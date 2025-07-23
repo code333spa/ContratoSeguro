@@ -5,3 +5,4 @@ pydantic
 jinja2
 sqlalchemy
 aiofiles
+python-multipart
